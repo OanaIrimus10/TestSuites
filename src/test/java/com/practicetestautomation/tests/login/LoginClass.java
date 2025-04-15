@@ -67,7 +67,7 @@ public class LoginClass {
 
         //Push Submit button
         //WebElement submitButton= driver.findElement(By.id("submit"));
-        WebElement submitButton= driver.findElement(By.xpath("//button"));
+        WebElement submitButton= driver.findElement(By.id("submit"));
         logger.info("Click submit button");
         submitButton.click();
 
